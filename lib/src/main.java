@@ -1,7 +1,7 @@
 import java.util.Scanner;
 import java.util.Random;
 
-public class main {
+public class Main {
     public static void main(String[] args) {
         Random rnd = new Random();
         Scanner in = new Scanner(System.in);
@@ -35,7 +35,7 @@ public class main {
         }
 
         System.out.println("");
-        
+
         average = sum / dataPoints.length;
         System.out.println("The sum of the array dataPoints is: " + sum + " and the average of the array is: " + average);
 
