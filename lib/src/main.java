@@ -34,6 +34,8 @@ public class main {
             sum += dataPoints[i];
         }
 
+        System.out.println("");
+        
         average = sum / dataPoints.length;
         System.out.println("The sum of the array dataPoints is: " + sum + " and the average of the array is: " + average);
 
